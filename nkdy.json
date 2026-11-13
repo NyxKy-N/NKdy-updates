@@ -1,6 +1,6 @@
 {
-    "versionCode":  29,
-    "versionName":  "5.1.0",
-    "changelog":  "1. 修好「改过一次就再也改不动，必须重启抖音」：点面板旁的修改按钮后会在面板的多个层级重试派发点击，直到复制真的发生\n2. 面板里能读到消息文字时直接用它进改写框，不再依赖复制这一步",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.1.0.apk"
+    "versionCode":  30,
+    "versionName":  "5.2.0",
+    "changelog":  "1. 点「修改」不再模拟点击面板，彻底避免误触发「引用/回复」\n2. 保存或取消后立刻能再次长按同一条消息修改，不用先改别的\n3. 保存后气泡就地刷新，并在下一帧再补一次，避免抖音把文字改回去\n4. 改成显示值→原文的索引，改过一次的消息再改仍能回到最初原文",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.2.0.apk"
 }
