@@ -1,6 +1,6 @@
 {
-    "versionCode":  23,
-    "versionName":  "5.0.4",
-    "changelog":  "长按面板右下角浮出「修改」（铅笔图标，点击走复制入口）；保存后可直接再改，无需退出聊天",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.4.apk"
+    "versionCode":  24,
+    "versionName":  "5.0.5",
+    "changelog":  "修复「修改」浮标不显示：挂到长按面板自己的窗口并改用屏幕坐标定位，日志会打印实际坐标",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.5.apk"
 }
