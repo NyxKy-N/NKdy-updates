@@ -1,6 +1,6 @@
 {
-    "versionCode":  24,
-    "versionName":  "5.0.5",
-    "changelog":  "修复「修改」浮标不显示：挂到长按面板自己的窗口并改用屏幕坐标定位，日志会打印实际坐标",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.5.apk"
+    "versionCode":  25,
+    "versionName":  "5.0.6",
+    "changelog":  "修复点「修改」闪退/卡死：点击时先摘掉浮标再触发复制，面板关闭时异步移除（避免框架 detach 遍历时改视图树）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.6.apk"
 }
