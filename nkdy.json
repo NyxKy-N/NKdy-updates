@@ -1,6 +1,6 @@
 {
-    "versionCode":  20,
-    "versionName":  "5.0.1",
-    "changelog":  "1. 长按面板新增「修改」按钮（铅笔图标），不用再点复制\n2. 改写弹窗改成深色圆角样式\n3. 修好改完不能再改、要退出聊天才刷新\n4. 改写表落盘，重启抖音仍然生效",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.1.apk"
+    "versionCode":  21,
+    "versionName":  "5.0.2",
+    "changelog":  "长按面板「复制」改名为「修改」+铅笔图标；修复长按闪退（不再 addView，改为就地改名）；深色圆角改写弹窗；保存后立即刷新气泡；改写表落盘重启仍在",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.2.apk"
 }
