@@ -1,6 +1,6 @@
 {
-    "versionCode":  26,
-    "versionName":  "5.0.7",
-    "changelog":  "1. 长按面板「复制」改为「修改」，点击直接弹本地改写框 2. 修复改完不能再次修改 3. 保存后立即刷新气泡 4. 美化改写弹窗",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.7.apk"
+    "versionCode":  27,
+    "versionName":  "5.0.8",
+    "changelog":  "1. 点「恢复原文」后气泡立刻变回原文，不用退出聊天 2. 保存或取消后，同一条消息可以马上再次修改 3. 面板入口保持在「修改」（原「复制」位）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.8.apk"
 }
