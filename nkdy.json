@@ -1,6 +1,6 @@
 {
-    "versionCode":  19,
-    "versionName":  "5.0.0",
-    "changelog":  "1. 新增：长按消息 → 复制 → 本地改写显示文字（自己的和对方的消息都能改，对方看不到）\n2. 功能页新增「长按改写消息」开关",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.0.apk"
+    "versionCode":  20,
+    "versionName":  "5.0.1",
+    "changelog":  "1. 长按面板新增「修改」按钮（铅笔图标），不用再点复制\n2. 改写弹窗改成深色圆角样式\n3. 修好改完不能再改、要退出聊天才刷新\n4. 改写表落盘，重启抖音仍然生效",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.1.apk"
 }
