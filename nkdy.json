@@ -1,6 +1,6 @@
 {
-    "versionCode":  18,
-    "versionName":  "4.9.2",
-    "changelog":  "验证应用内更新链路（本版无功能改动，仅版本号+1）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-4.9.2.apk"
+    "versionCode":  19,
+    "versionName":  "5.0.0",
+    "changelog":  "1. 新增：长按消息 → 复制 → 本地改写显示文字（自己的和对方的消息都能改，对方看不到）\n2. 功能页新增「长按改写消息」开关",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.0.apk"
 }
