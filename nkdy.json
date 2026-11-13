@@ -1,6 +1,6 @@
 {
-    "versionCode": 28,
-    "versionName": "5.0.9",
-    "changelog": "1. 长按面板旁边新增独立的「修改」按钮（不再占用面板里的「复制」）\n2. 按钮是悬浮窗，面板关闭自动消失\n3. root 下自动授予抖音 SYSTEM_ALERT_WINDOW 权限",
-    "url": "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.9.apk"
+    "versionCode":  29,
+    "versionName":  "5.1.0",
+    "changelog":  "1. 修好「改过一次就再也改不动，必须重启抖音」：点面板旁的修改按钮后会在面板的多个层级重试派发点击，直到复制真的发生\n2. 面板里能读到消息文字时直接用它进改写框，不再依赖复制这一步",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.1.0.apk"
 }
