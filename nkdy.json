@@ -1,6 +1,6 @@
 {
-    "versionCode":  21,
-    "versionName":  "5.0.2",
-    "changelog":  "长按面板「复制」改名为「修改」+铅笔图标；修复长按闪退（不再 addView，改为就地改名）；深色圆角改写弹窗；保存后立即刷新气泡；改写表落盘重启仍在",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.2.apk"
+    "versionCode":  22,
+    "versionName":  "5.0.3",
+    "changelog":  "修复改写弹窗可能认错消息（剪贴板文本只做完全匹配）；长按面板「修改」沿用原生复制动作",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.3.apk"
 }
