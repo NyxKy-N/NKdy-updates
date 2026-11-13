@@ -1,6 +1,6 @@
 {
-    "versionCode":  22,
-    "versionName":  "5.0.3",
-    "changelog":  "修复改写弹窗可能认错消息（剪贴板文本只做完全匹配）；长按面板「修改」沿用原生复制动作",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.3.apk"
+    "versionCode":  23,
+    "versionName":  "5.0.4",
+    "changelog":  "长按面板右下角浮出「修改」（铅笔图标，点击走复制入口）；保存后可直接再改，无需退出聊天",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.4.apk"
 }
