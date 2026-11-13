@@ -1,6 +1,6 @@
 {
-    "versionCode":  25,
-    "versionName":  "5.0.6",
-    "changelog":  "修复点「修改」闪退/卡死：点击时先摘掉浮标再触发复制，面板关闭时异步移除（避免框架 detach 遍历时改视图树）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.6.apk"
+    "versionCode":  26,
+    "versionName":  "5.0.7",
+    "changelog":  "1. 长按面板「复制」改为「修改」，点击直接弹本地改写框 2. 修复改完不能再次修改 3. 保存后立即刷新气泡 4. 美化改写弹窗",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.0.7.apk"
 }
