@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "4.9.1",
-  "changelog": "1. 底栏滑动改成「滑到哪选哪」\n2. Release 包体积缩到 2.8MB\n3. 关于页可直接检查更新并安装",
-  "url": "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-4.9.1.apk"
+    "versionCode":  18,
+    "versionName":  "4.9.2",
+    "changelog":  "验证应用内更新链路（本版无功能改动，仅版本号+1）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-4.9.2.apk"
 }
