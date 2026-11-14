@@ -1,6 +1,6 @@
 {
-    "versionCode":  34,
-    "versionName":  "5.5.0",
-    "changelog":  "抖音内长按「保存至相册」直接下无水印视频（照 Prism 思路：BaseListFragmentPanel#getCurrentAweme + 播放流直下）；移除 NKdy 的链接下载与在线解析",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.5.0.apk"
+    "versionCode":  35,
+    "versionName":  "5.5.1",
+    "changelog":  "无水印下载加固：兼容 douyinvod、/video/tos/ 等播放地址；取不到地址时给出提示，不再静默失败",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.5.1.apk"
 }
