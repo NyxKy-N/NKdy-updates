@@ -1,6 +1,6 @@
 {
-    "versionCode":  35,
-    "versionName":  "5.5.1",
-    "changelog":  "无水印下载加固：兼容 douyinvod、/video/tos/ 等播放地址；取不到地址时给出提示，不再静默失败",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.5.1.apk"
+    "versionCode":  36,
+    "versionName":  "5.5.2",
+    "changelog":  "图文（图集）无水印保存：按 ImageUrlStruct 的 watermarkFreeDownloadUrlList/urlList 取干净原图，排除带 water 模板的地址；修复图片带「抖音号」水印；落盘后缀改为真实格式",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.5.2.apk"
 }
