@@ -1,6 +1,6 @@
 {
-    "versionCode":  31,
-    "versionName":  "5.3.0",
-    "changelog":  "1. 新增「修改聊天」：在 NKdy 里挑好友、加载纯文本消息，长按改成本机显示的文字（抖音里不再有入口）\n2. 反复进出同一个聊天不会重复加载同一条消息，同一会话内相同文字只记一次\n3. 只留正文气泡：过滤 @/# 话题、视频卡片作者名、长按菜单文字；引用回复照常显示\n4. 每个好友页新增「一键恢复原文」「清除加载的聊天」\n5. 顺序修正：最先加载的在最下面，往上翻是更早的消息，打开会话自动滚到底\n6. 保存后立即生效：改写表另存共享文件，宿主渲染时实时读取\n7. 编辑弹框改用系统对话框 + 真实 EditText，输入法正常时键盘一定弹出",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.3.0.apk"
+    "versionCode":  32,
+    "versionName":  "5.4.0",
+    "changelog":  "链接下载：功能页新增「链接下载」卡片，粘贴抖音分享链接后在线解析并直接存到相册（视频进 Movies/抖音，图集进 Pictures/抖音），自动跳过小图标。抖音内「保存至相册」接管已移除。关于页不再显示更新源地址。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.4.0.apk"
 }
