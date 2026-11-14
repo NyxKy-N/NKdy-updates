@@ -1,6 +1,6 @@
 {
-    "versionCode":  32,
-    "versionName":  "5.4.0",
-    "changelog":  "链接下载：功能页新增「链接下载」卡片，粘贴抖音分享链接后在线解析并直接存到相册（视频进 Movies/抖音，图集进 Pictures/抖音），自动跳过小图标。抖音内「保存至相册」接管已移除。关于页不再显示更新源地址。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.4.0.apk"
+    "versionCode":  33,
+    "versionName":  "5.4.1",
+    "changelog":  "修复：链接下载只从解析结果里取抖音 CDN 的媒体，不再把解析站自己的 logo/横幅当作品存进相册；解析失败时直接提示原因，不再回落抓取。\n已知限制：解析站取不到某些作品（返回 server_error）时会明确报错，换一条链接重试即可。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.4.1.apk"
 }
