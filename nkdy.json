@@ -1,6 +1,6 @@
 {
-    "versionCode":  33,
-    "versionName":  "5.4.1",
-    "changelog":  "修复：链接下载只从解析结果里取抖音 CDN 的媒体，不再把解析站自己的 logo/横幅当作品存进相册；解析失败时直接提示原因，不再回落抓取。\n已知限制：解析站取不到某些作品（返回 server_error）时会明确报错，换一条链接重试即可。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.4.1.apk"
+    "versionCode":  34,
+    "versionName":  "5.5.0",
+    "changelog":  "抖音内长按「保存至相册」直接下无水印视频（照 Prism 思路：BaseListFragmentPanel#getCurrentAweme + 播放流直下）；移除 NKdy 的链接下载与在线解析",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.5.0.apk"
 }
