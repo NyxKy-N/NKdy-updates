@@ -1,6 +1,6 @@
 {
-    "versionCode":  36,
-    "versionName":  "5.5.2",
-    "changelog":  "图文（图集）无水印保存：按 ImageUrlStruct 的 watermarkFreeDownloadUrlList/urlList 取干净原图，排除带 water 模板的地址；修复图片带「抖音号」水印；落盘后缀改为真实格式",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.5.2.apk"
+    "versionCode":  37,
+    "versionName":  "5.6.0",
+    "changelog":  "隐私三连：隐藏在线状态 / 隐藏访客记录 / 隐藏浏览记录（TTNet + okhttp3 双拦截，日志可查）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.6.0.apk"
 }
