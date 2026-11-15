@@ -1,6 +1,7 @@
 {
-    "versionCode":  37,
-    "versionName":  "5.6.0",
-    "changelog":  "隐私三连：隐藏在线状态 / 隐藏访客记录 / 隐藏浏览记录（TTNet + okhttp3 双拦截，日志可查）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.6.0.apk"
+    "versionCode":  38,
+    "versionName":  "5.6.1",
+    "changelog":  "1. 修复 okhttp3 层拦截从未生效：隐藏在线/访客/浏览现在 okhttp + TTNet 双通道都真正拦住了\n2. 修复「修改聊天」每个会话只显示一条消息（按文字去重把重复的话吞了）\n3. 修复「修改聊天」点保存被当成取消、Activity 销毁时弹窗泄漏\n4. 修复 App 清空改写表后抖音里旧替换仍生效\n5. 修复抓到的聊天文本被静默丢弃（共享文件不存在时直接创建）\n6. 修复手动「立即续一次」不认当天发送记录、连点会发两条\n7. 修复没选目标时定时不发（与手动兜底逻辑不一致）\n8. 发送挪到独立线程：多目标发送期间心跳不再中断，首页不再误报「抖音进程未运行」\n9. 聊天导出通道加令牌鉴权，/data/local/tmp 共享文件权限从 666 收紧到 600\n10. 更新器下载后校验签名与 sha256，更新源地址只接受 http(s)\n11. 降低渲染热路径开销：配置读取合并窗口、改写表同步移出 setText、日志写入加锁与线程安全时间格式\n12. 撤回记录写回挪到后台线程；去水印面板接管改为按容器去重",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.6.1.apk",
+    "sha256":  "3f710be99b8d5706dccdaf15dfe3d39cdd5acb2e97aaaeabd7991be02a29bed8"
 }
