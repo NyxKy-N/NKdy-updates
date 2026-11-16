@@ -1,7 +1,7 @@
 {
-    "versionCode":  48,
-    "versionName":  "5.9.5",
+    "versionCode":  49,
+    "versionName":  "5.9.6",
     "changelog":  "1. 修抖音里「修改获赞 / 互关 / 粉丝」等统计弹窗：之前太透明、黑字看不清，现在改成不透明深色卡片 + 浅色文字 + 主题色按钮。\n2. 修「修改消息」弹窗出现两层背景的问题。\n3. 修拖动开关、滑动条时整页跟着往上滑的问题（手势不再带动页面滚动）。\n4. 修滑动条拖动时数字不实时变化的问题；点轨道任意位置可以直接跳到对应数值。\n5. 更新日志太长时改成可滚动区域，下面的下载 / 安装按钮不会再被挤出屏幕。\n6. 删除退出抖音时「再按一次退出」的双层胶囊提示。\n7. 点底栏右侧「我 / 拍视频」圆钮时，被选中的图标不再消失。\n8. 构建体系升级到 AGP 9 内置 Kotlin / Gradle 10 写法；安装包继续使用 debug 签名，老版本可以直接覆盖安装。\n9. 更新包强制校验 sha256；用户证书只在 debug 包中信任，更新链路更安全。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.5.apk",
-    "sha256":  "1b50596027ce18bfd745c63f1bbeadcf92b97ab6b5947e9d575fa2a39c3e718d"
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.6.apk",
+    "sha256":  "78ec786eba6fcce586105529ee3b7258bc4e4157be174f7690fcab3da1a88e57"
 }
