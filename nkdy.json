@@ -1,7 +1,7 @@
 {
-    "versionCode":  42,
-    "versionName":  "5.8.2",
-    "changelog":  "1. 修复应用内更新下载报 SSLHandshakeException（证书链不受信任）导致无法下载新版本的问题\n2. 更新下载镜像增加，下载失败时会提示原因并多一个「浏览器打开」手动下载的兜底入口\n3. 其它功能不变；装完请停掉抖音重新打开",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.8.2.apk",
-    "sha256":  "f29350c95b6770ef3508a577b2994b2cd5e038356bcb572d6995ef0932dd06b1"
+    "versionCode":  43,
+    "versionName":  "5.9.0",
+    "changelog":  "1. 新增「抖音液态玻璃栏」：直接内置 DouYinLiquidTab（GPL-3.0）的顶栏/底栏玻璃实现，由自定义玻璃栏接管抖音底栏与顶栏（原生栏隐藏并作为数据源），支持折叠/滑动/指示器动画\n2. NKdy 设置页新增两个开关：「抖音液态玻璃栏」总开关（底栏）和「顶栏也用液态玻璃」；修改后请停掉抖音再重新打开生效\n3. 本工程自 5.9.0 起整体以 GNU GPL v3 发布：新增 LICENSE（GPL-3.0 全文），NOTICE 与 README 已更新声明\n4. 液态玻璃栏需要 Android 15+（API 35），低版本会自动跳过、其它功能不受影响\n5. 本版未真机验证：若底栏/顶栏显示异常，可在 NKdy 关闭对应开关恢复官方栏",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.0.apk",
+    "sha256":  "dc1ac5a790ac6ecb19ab5f8d408cf829cc86b5f5f1a31fb3609d2fc2fc05d6bc"
 }
