@@ -1,7 +1,7 @@
 {
-    "versionCode":  44,
-    "versionName":  "5.9.1",
-    "changelog":  "1. 自定义 → 抖音液态玻璃栏：顶栏/底栏各新增「位置与尺寸」可折叠区块，滑动调节上下、左右、宽度、高度（松手生效，部分参数需重开抖音）\n2. 玻璃栏几何：底栏高度范围放宽到 36~72dp，新增底栏左右偏移/宽度、顶栏左右偏移/宽度/高度覆盖\n3. NKdy 自己的底栏改成液态玻璃：提亮、加大模糊、加受光高光、底边内阴影与斜向反光条\n4. 修复拉取更新 SocketTimeout：连接 12s / 清单读取 20s / APK 下载读取 45s，每个地址重试 2 次，超时提示换网络或改用浏览器打开\n5. 提示：液态玻璃栏需 Android 15+（API 35）；本版未真机验证，异常时可在 NKdy 关闭总开关回退官方栏",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.1.apk",
-    "sha256":  "0ee220ba87890caf6ac9d763eba460edc656fa975ca4ddbe2e2eff30e3a0fd4e"
+    "versionCode":  45,
+    "versionName":  "5.9.2",
+    "changelog":  "1. 自定义里新增「玻璃参数」调节：模糊半径、玻璃浓度、饱和度、折射高度、折射强度，直接控制抖音液态玻璃栏的材质。\n2. 顶栏/底栏的位置尺寸滑块改成小球滑动（点按定位+拖动），拖动过程不写盘，松手才生效。\n3. 每根滑块右侧新增「↺」恢复默认，一键把该参数设回默认值。\n4. NKdy 自己的底栏改成真正的折射玻璃：模糊背后的页面内容再画进胶囊（Android 12+），低版本自动回退。\n5. 液态玻璃栏仍需 Android 15+；本次未真机验证（开发设备未连接），有问题请在 NKdy 日志页反馈。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.2.apk",
+    "sha256":  "9ee1624a60709fc28a920479e34564e0c843c683799c6605856b0d21b1ab81e1"
 }
