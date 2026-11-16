@@ -1,7 +1,7 @@
 {
-    "versionCode":  45,
-    "versionName":  "5.9.2",
-    "changelog":  "1. 自定义里新增「玻璃参数」调节：模糊半径、玻璃浓度、饱和度、折射高度、折射强度，直接控制抖音液态玻璃栏的材质。\n2. 顶栏/底栏的位置尺寸滑块改成小球滑动（点按定位+拖动），拖动过程不写盘，松手才生效。\n3. 每根滑块右侧新增「↺」恢复默认，一键把该参数设回默认值。\n4. NKdy 自己的底栏改成真正的折射玻璃：模糊背后的页面内容再画进胶囊（Android 12+），低版本自动回退。\n5. 液态玻璃栏仍需 Android 15+；本次未真机验证（开发设备未连接），有问题请在 NKdy 日志页反馈。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.2.apk",
-    "sha256":  "9ee1624a60709fc28a920479e34564e0c843c683799c6605856b0d21b1ab81e1"
+    "versionCode":  46,
+    "versionName":  "5.9.3",
+    "changelog":  "1. 修复检查更新报 HTTP 522 拉不到清单：新增 jsDelivr 三个节点的 nkdy.json 源（不依赖 GitHub releases 下载链路），镜像新增 ghproxy.imciel.com。\n2. 检查更新加 60 秒总时限，地址全挂时不再长时间等待，并说明剩下的镜像没再试。\n3. 出现 5xx（含 522）时提示「代理自己连不上 GitHub」；检查更新失败的弹窗也加了「浏览器打开」兜底按钮。\n4. 装好这一版后应用内更新会优先走 jsDelivr；本次未真机验证（开发设备未连接），有问题请在 NKdy 日志页反馈。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.3.apk",
+    "sha256":  "f4ba55b85d6fdb6228b6f83b9782f105d8ee741d37fc004d680b112556d504f7"
 }
