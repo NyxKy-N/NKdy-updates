@@ -1,7 +1,7 @@
 {
-    "versionCode":  41,
-    "versionName":  "5.8.1",
-    "changelog":  "1. 删除液态玻璃与自定义顶栏/底栏/右侧控件，恢复抖音官方界面\n2. 修复小白条后出现深灰色块：导航栏改为透明并关闭对比度 scrim，视频可透到小白条后面\n3. 保留自定义侧边栏、主页数据本地修改、常访问账本、防撤回、续火花等功能\n4. 安装后请停掉抖音重新打开（本版未真机验证，有问题可在 NKdy 日志页反馈）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.8.1.apk",
-    "sha256":  "d90973d0bff266cd4ceb155637d152a1213c21c65d3bb505722c7d5177b5b9df"
+    "versionCode":  42,
+    "versionName":  "5.8.2",
+    "changelog":  "1. 修复应用内更新下载报 SSLHandshakeException（证书链不受信任）导致无法下载新版本的问题\n2. 更新下载镜像增加，下载失败时会提示原因并多一个「浏览器打开」手动下载的兜底入口\n3. 其它功能不变；装完请停掉抖音重新打开",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.8.2.apk",
+    "sha256":  "f29350c95b6770ef3508a577b2994b2cd5e038356bcb572d6995ef0932dd06b1"
 }
