@@ -1,7 +1,7 @@
 {
-    "versionCode":  53,
-    "versionName":  "5.9.10",
-    "changelog":  "1. 修复抖音 41.1 液态玻璃底栏启动后「闪一下就消失」：41.1 的 feed 页会把原生底栏行高度折叠为 0，现在折叠态仍保留自绘玻璃底栏（图标与胶囊不依赖原生行像素）。\r\n2. 修复抖音 41.1 视频进度条与玻璃底栏重叠：进度条与文案位置按玻璃底栏真实顶边（含手势区 / 底栏下边距）上移，不再压进底栏。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.10.apk",
-    "sha256":  "bc7c1d86b82b4fdf3379f3670d0d194446d5370d121e619a714d86c53ac927a7"
+    "versionCode":  54,
+    "versionName":  "5.9.11",
+    "changelog":  "- 修复抖音 41.1 底栏按钮点击无反应的问题\r\n- 修复抖音 41.1 视频进度条与玻璃底栏重叠的问题",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.11.apk",
+    "sha256":  "f5edcec128df295ad69d25a6e63d340d5457f52ea5c0515b8d94370a724c0621"
 }
