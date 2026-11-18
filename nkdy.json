@@ -1,7 +1,7 @@
 {
-    "versionCode":  57,
-    "versionName":  "5.9.14",
-    "changelog":  "修复抖音 41.x 双击点赞后大爱心特效结尾闪烁的问题（41.0 / 41.1 均已验证）；右栏点赞图标动画不受影响。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.14.apk",
-    "sha256":  "9622b64a402658da659422135e5d6661d514d0130acb3eaf3aa42f5c274428e8"
+    "versionCode":  58,
+    "versionName":  "5.9.15",
+    "changelog":  "1. 修复底栏「滑来滑去页面经常不切换」：整条栏可拖，点按/拖动/翻页共用单一状态源\n2. 修复推荐页右侧「+」关注按钮偶尔变方形：改为自绘覆盖层跟随主题色，永远正圆\n3. 修复拖动进度条 / 暂停视频时进度条上下抖动\n4. 新增「推荐页信息区高度」调节（0～96dp，可到 -15dp 更贴底）\n5. 新增动图作品无水印下载（存为会动的视频）\n6. 参数面板（液态玻璃 / 底栏 / 顶栏）改为展开收起动画\n7. 修复他人主页 / 消息页底栏仍在、后方残留深蓝或灰色底板（含上一页视频残影）\n以上均在抖音 41.0 / 41.1 上截图或录屏验证。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.15.apk",
+    "sha256":  "ea5f19ab81f91d139dc4fc1d1dc1e22a7a8218ee90cc4f4d4cac6a336277a376"
 }
