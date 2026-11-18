@@ -1,7 +1,7 @@
 {
-    "versionCode":  54,
-    "versionName":  "5.9.11",
-    "changelog":  "- 修复抖音 41.1 底栏按钮点击无反应的问题\r\n- 修复抖音 41.1 视频进度条与玻璃底栏重叠的问题",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.11.apk",
-    "sha256":  "f5edcec128df295ad69d25a6e63d340d5457f52ea5c0515b8d94370a724c0621"
+    "versionCode":  55,
+    "versionName":  "5.9.12",
+    "changelog":  "- 修复 41.0/41.1 好友聊天页最后 1-2 条消息被输入框挡住的问题\r\n- 修复双击点赞动画结束时爱心会闪一下的问题",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.12.apk",
+    "sha256":  "877ec7a4ff81cff75497672b0c01a34a4c287d4923425ac7ff62a7d4d1a3ef6c"
 }
