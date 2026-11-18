@@ -1,7 +1,7 @@
 {
-    "versionCode":  56,
-    "versionName":  "5.9.13",
-    "changelog":  "- 修复双击点赞动画异常：大爱心特效结尾闪烁、右侧点赞按钮消失的问题（回退 5.9.12 的动画拦截）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.13.apk",
-    "sha256":  "6a2356bb7a122604f1c15e2b8418dac9e6078599d2fd1a2c41c4e07c1872f192"
+    "versionCode":  57,
+    "versionName":  "5.9.14",
+    "changelog":  "修复抖音 41.x 双击点赞后大爱心特效结尾闪烁的问题（41.0 / 41.1 均已验证）；右栏点赞图标动画不受影响。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.14.apk",
+    "sha256":  "9622b64a402658da659422135e5d6661d514d0130acb3eaf3aa42f5c274428e8"
 }
