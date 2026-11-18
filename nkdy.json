@@ -1,7 +1,7 @@
 {
-    "versionCode":  55,
-    "versionName":  "5.9.12",
-    "changelog":  "- 修复 41.0/41.1 好友聊天页最后 1-2 条消息被输入框挡住的问题\r\n- 修复双击点赞动画结束时爱心会闪一下的问题",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.12.apk",
-    "sha256":  "877ec7a4ff81cff75497672b0c01a34a4c287d4923425ac7ff62a7d4d1a3ef6c"
+    "versionCode":  56,
+    "versionName":  "5.9.13",
+    "changelog":  "- 修复双击点赞动画异常：大爱心特效结尾闪烁、右侧点赞按钮消失的问题（回退 5.9.12 的动画拦截）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.13.apk",
+    "sha256":  "6a2356bb7a122604f1c15e2b8418dac9e6078599d2fd1a2c41c4e07c1872f192"
 }
