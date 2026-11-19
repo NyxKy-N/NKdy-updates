@@ -1,7 +1,7 @@
 {
-    "versionCode":  59,
-    "versionName":  "5.9.16",
-    "changelog":  "1. 修复推荐页右侧「+」关注徽标只有第一个视频是主题色、之后都退回原生红色：徽标视图被信息流复用时不再停止跟随，失效立即重新识别；\n2. 修复按住拖动进度条时进度条会掉到底栏位置再跳回（抽搐）：抖音拖动时会切换到另一条进度条，现在两条都抬到玻璃底栏上方；\n3. 以上均在本机抖音 41.0 / 41.1 上截图或录屏验证。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.16.apk",
-    "sha256":  "348551e4ffe74a40b15e72b74959678a1d0c6044c2a2497b76ea841b7dd02d35"
+    "versionCode":  60,
+    "versionName":  "5.9.17",
+    "changelog":  "1. 修复刷视频时抖音闪退（关注按钮染色时对空 Drawable 层抛空指针），这是 5.9.16 就存在的崩溃；\r\n2. 图文帖底部不再出现多余的进度条，退出图文帖自动恢复；\r\n3. 进度条拖动改为直接走抖音原生手势并手动起拖，抬升后长按拖动依然有效；\r\n4. 反复拖动进度条后抬升/触摸与轨道失联的问题修复；\r\n5. 消息页、他人主页、图文页的玻璃底栏显示与底部留白修正；\r\n6. 以上在抖音 41.0.0 / 41.1.0 上双版本真机验证。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.17.apk",
+    "sha256":  "37cf4f2671c9918ead195ee11ef08dad52718ff52b9bbd50cc5d0adc39b1bc14"
 }
