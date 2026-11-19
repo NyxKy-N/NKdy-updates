@@ -1,7 +1,7 @@
 {
-    "versionCode":  60,
-    "versionName":  "5.9.17",
-    "changelog":  "1. 修复刷视频时抖音闪退（关注按钮染色时对空 Drawable 层抛空指针），这是 5.9.16 就存在的崩溃；\r\n2. 图文帖底部不再出现多余的进度条，退出图文帖自动恢复；\r\n3. 进度条拖动改为直接走抖音原生手势并手动起拖，抬升后长按拖动依然有效；\r\n4. 反复拖动进度条后抬升/触摸与轨道失联的问题修复；\r\n5. 消息页、他人主页、图文页的玻璃底栏显示与底部留白修正；\r\n6. 以上在抖音 41.0.0 / 41.1.0 上双版本真机验证。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.17.apk",
-    "sha256":  "37cf4f2671c9918ead195ee11ef08dad52718ff52b9bbd50cc5d0adc39b1bc14"
+  "versionCode": 61,
+  "versionName": "5.9.18",
+  "changelog": "1. 修复点击「我」进入个人主页后玻璃底栏消失的问题。\n2. 修复 NKdy 开关切换后滑钮与实际状态不同步，以及轻微手指抖动、竖向滚动造成误切换的问题。\n3. 修复底栏快速连续点击、拖动和页面切换时动画不同步的问题。\n4. 将抖音顶栏、底栏颜色统一合并到「NKdy 设置 → 主题色」，自动迁移旧的栏颜色配置。\n5. 修复白色、灰色主题下按钮、勾选框和主题文字对比度不足的问题；浅色填充使用黑字，栏文字根据深浅背景调整。\n\n验证：10 项单元测试通过；Release 构建与 APK 签名校验通过。以上修复尚未真机验证。\n",
+  "url": "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.18.apk",
+  "sha256": "4140f85ffcbf2c6723828cd2630508f8909e8710f224a2dcb6ee559288c2e1f7"
 }
