@@ -1,7 +1,7 @@
 {
-    "versionCode":  73,
-    "versionName":  "5.9.30",
-    "changelog":  "1. 完整适配抖音 41.0.0 与 41.1.0 双版本\n2. 适配 41.1.0 底部相关搜索 Flux 全部 4 个拦截点位（LLLLIIIILLL / LLLIZZ）\n3. 适配 41.1.0 侧边栏常访问未读作品红点状态机（X.0Iax / X.0Iaz / X.1CQD）\n4. 适配 41.1.0 推荐页右侧关注「+」徽标父容器无障碍标签识别",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.30.apk",
-    "sha256":  "1d30ca78285968040ae8c8e3721e6815bd7a657b7e496ef8e59986cd0e7552b7"
+    "versionCode":  74,
+    "versionName":  "5.9.31",
+    "changelog":  "1. 全面适配抖音 41.2.0（410201），兼容 41.0.0 / 41.1.0 / 41.2.0+\n2. 液态玻璃视频纹理输出工厂（X.0sYf）与开关方法改为通过未混淆宿主组件自动发现，跨版本免硬编码\n3. 底部相关搜索栏拦截升级为方法签名自适配（兼容 41.2.0 新参数签名）\n4. 侧边栏常访问未读作品状态机通过 HPFreqVisitedUnreadService 动态解析\n5. 进度条拖拽（ProSeekBarView）与直播预览纹理渲染改为方法签名动态匹配",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.31.apk",
+    "sha256":  "c936c65e61843b3ee0266d35a9fc9ede3cc7b15fefc03b8caddc911876e7ef46"
 }
