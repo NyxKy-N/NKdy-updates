@@ -1,7 +1,7 @@
 {
-    "versionCode":  72,
-    "versionName":  "5.9.29",
-    "changelog":  "1. 修复 v5.9.28 打开 NKdy 闪退的问题（补全 AndroidManifest 组件 ProGuard/R8 keep 规则与运行时 R.jar 资源 ID 内联）\n2. 修复双击自己主页获赞/互关/关注/粉丝不弹出本地修改的问题（回溯式命中 + 放宽双击判定）\n3. 修复视频评论区双击图片/动图/表情包不弹出无水印下载的问题（支持抖音 41.0.0 泛型擦除组件链提取 Comment）\n4. 修复他人主页作品 tab 同时显示自己和对方两个作品数量的问题（精确区分自己/他人主页并自动清理兄弟计数器）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.29.apk",
-    "sha256":  "53fb6f5988e878c79172a585f86c3dde6a252785221f88249b344e56fc79e5bd"
+    "versionCode":  73,
+    "versionName":  "5.9.30",
+    "changelog":  "1. 完整适配抖音 41.0.0 与 41.1.0 双版本\n2. 适配 41.1.0 底部相关搜索 Flux 全部 4 个拦截点位（LLLLIIIILLL / LLLIZZ）\n3. 适配 41.1.0 侧边栏常访问未读作品红点状态机（X.0Iax / X.0Iaz / X.1CQD）\n4. 适配 41.1.0 推荐页右侧关注「+」徽标父容器无障碍标签识别",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.30.apk",
+    "sha256":  "1d30ca78285968040ae8c8e3721e6815bd7a657b7e496ef8e59986cd0e7552b7"
 }
