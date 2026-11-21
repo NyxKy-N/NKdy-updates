@@ -1,7 +1,7 @@
 {
-    "versionCode":  78,
-    "versionName":  "5.9.35",
-    "changelog":  "v5.9.35 灵动胶囊位置优化 + 全链路主线程性能优化（适配抖音 41.0 / 41.1 / 41.2）：1. 顶部灵动胶囊 HUD 调整至顶栏下方（topInset + 68dp），避开顶部液态玻璃导航栏与侧栏头像行；2. HostConfig 增加远端配置原串比对缓存，配置未变时零 JSON 反序列化且重读间隔拉长至 1.2s；3. MessageRewriter 改用无锁快照 + TextSink 聊天页前置短路 + RecallGuard 无撤回 O(1) 短路，消除刷视频时 95%+ 无效 setText 开销；4. ProfileStatsHook 用零分配字符循环替代热路径 Regex 并跳过非主页 Activity；5. FollowButtonTint 长度短路防无效字符串分配并将全局布局防抖优化至 320ms；6. PlusBadgeTint 仅挂载 MainActivity 且绘制检测节流至 ~30fps / 450ms 扫描冷却；7. FeedPurify 增加已净化列表 O(1) 缓存与惰性分配，SidebarPage 消除 120Hz 坐标数组分配并优化抽屉关闭期零开销跳过。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.35.apk",
-    "sha256":  "dfdc431f942bda9f5b3c687c404ef37fd1f9fd950ef96f2844b3570f47e9d0ce"
+    "versionCode":  79,
+    "versionName":  "5.9.36",
+    "changelog":  "v5.9.36 全套 9 项深度优化与新功能 + 灵动胶囊动态防重叠（适配抖音 41.0 / 41.1 / 41.2）：1. 顶部灵动胶囊自动探测顶栏下沿并保持安全留白（topInset + 84dp 或顶栏下沿 + 10dp），彻底告别与液态玻璃顶栏及侧栏头像行重叠；2. 新增统一触控总线 HostTouchHub 收敛 5 路 Activity.dispatchTouchEvent 为单钩子，移除 QuickEdit 全局 View 级触摸钩子大幅降低 120Hz 刷视频消耗；3. NoWatermark 增加 setText 长度短路 + 顶部灵动胶囊实时百分比/张数下载进度，ProfileVisitHook 增加 User 对象弱引用去重缓存；4. 侧边栏「今日概览」升级可点击「隐私/净化 ▸」毛玻璃明细抽屉（分项展示访客/浏览/直播/广告带货统计并支持一键清零）；5. 推荐流增强新增「跳过带货购物视频」与「播完自动连播下一条」；6. 新增全场景自由复制（长按长文本自由提取）与抖音分享链接追踪参数自动净化；7. 新增沉浸清屏专注模式（侧栏/App 热切 + 右下角一键退出清屏）；8. NKdy 设置页新增完整配置 JSON 一键导出/剪贴板恢复；9. NKdy 主页新增 12 项快捷胶囊与可展开「模块运行诊断」总览。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.36.apk",
+    "sha256":  "94a292f7cc5010ba52c20341f4d51c1fff563320450000fb8f17b5cd91308d05"
 }
