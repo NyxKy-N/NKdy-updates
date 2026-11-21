@@ -1,7 +1,7 @@
 {
-    "versionCode":  79,
-    "versionName":  "5.9.36",
-    "changelog":  "v5.9.36 全套 9 项深度优化与新功能 + 灵动胶囊动态防重叠（适配抖音 41.0 / 41.1 / 41.2）：1. 顶部灵动胶囊自动探测顶栏下沿并保持安全留白（topInset + 84dp 或顶栏下沿 + 10dp），彻底告别与液态玻璃顶栏及侧栏头像行重叠；2. 新增统一触控总线 HostTouchHub 收敛 5 路 Activity.dispatchTouchEvent 为单钩子，移除 QuickEdit 全局 View 级触摸钩子大幅降低 120Hz 刷视频消耗；3. NoWatermark 增加 setText 长度短路 + 顶部灵动胶囊实时百分比/张数下载进度，ProfileVisitHook 增加 User 对象弱引用去重缓存；4. 侧边栏「今日概览」升级可点击「隐私/净化 ▸」毛玻璃明细抽屉（分项展示访客/浏览/直播/广告带货统计并支持一键清零）；5. 推荐流增强新增「跳过带货购物视频」与「播完自动连播下一条」；6. 新增全场景自由复制（长按长文本自由提取）与抖音分享链接追踪参数自动净化；7. 新增沉浸清屏专注模式（侧栏/App 热切 + 右下角一键退出清屏）；8. NKdy 设置页新增完整配置 JSON 一键导出/剪贴板恢复；9. NKdy 主页新增 12 项快捷胶囊与可展开「模块运行诊断」总览。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.36.apk",
-    "sha256":  "94a292f7cc5010ba52c20341f4d51c1fff563320450000fb8f17b5cd91308d05"
+    "versionCode":  80,
+    "versionName":  "5.9.37",
+    "changelog":  "v5.9.37 侧边栏极致流畅度优化 + 天气卡片重做 + 精简冗余功能（适配抖音 41.0 / 41.1 / 41.2）：1. 彻底修复侧边栏展开后滑动卡顿：展开态几何复查节流至 64ms、移除 ScrollView 重型 LayoutTransition 与 120Hz 无限红点动画、磁贴状态缓存避免重复重建 Drawable、VisitorBook 查询移至后台线程并增加常访问渲染去重、卡片入场启用 GPU 硬件层；2. 移除「跳过直播 / 自动连播 / 沉浸清屏 / 跳过广告（含带货）」，侧边栏控制中心回归精简高效的 2×3 六宫格；3. 全新重做侧边栏天气卡片：斜向大气渐变 + 顶部微高光玻璃层、大号温度 + 磨砂天气状态胶囊 + 体感并排主行、可折叠三栏磨砂小指标条（高低温 / 湿度 / 风速）与圆形磨砂刷新按钮。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.37.apk",
+    "sha256":  "5991d2fd62f92b74074eb0c70c9b4eb270463aca9e5ff9db9db92632c80556b3"
 }
