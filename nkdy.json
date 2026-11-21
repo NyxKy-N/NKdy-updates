@@ -1,7 +1,7 @@
 {
-    "versionCode":  70,
-    "versionName":  "5.9.27",
-    "changelog":  "- 评论区表情包与图片支持双击无水印保存原格式（优先读取 Fresco 缓存，支持双源竞速下载与动图/视频格式校验）。\n- 侧边栏「经常访问的人」新增未读新作品红点提示；推荐流底部相关搜索栏自动隐藏；重写聊天与主页数据的底部原生编辑弹窗。\n- 修复主页统计数字开启本地修改后单击「关注 / 粉丝 / 互关」无法打开列表、看他人主页误显示本人覆盖值，以及留空保存后未立即恢复原数字的问题。\n- 修复宿主日志推送与主线程读取配置可能触发跨进程 IPC 阻塞的问题；修复双参 setText 未检查本地改写开关、后台线程直接弹 Toast 及去水印并发锁的隐患。\n- 优化二级页面折叠顶栏与状态栏模糊；补全混淆规则与 .gitignore 忽略项，全部 JVM 单元测试通过。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.27.apk",
-    "sha256":  "92519c8aab6009675ef2a756ec0e9264ed4ba55941e58b604228cf9eb7d9bd5d"
+    "versionCode":  71,
+    "versionName":  "5.9.28",
+    "changelog":  "- 修复双击自己主页的「获赞 / 互关 / 关注 / 粉丝」按钮（含数字与下方文字标签区域）不会弹出本地修改弹窗的问题。\n- 修复视频评论区双击图片、动图、表情包（含上层覆盖 LongPressLayout/遮罩 View 及泛型组件列表）不弹出无水印下载选项的问题。\n- 修复进入他人主页时「作品」标签同时显示本人缓存作品数与他人作品数的问题。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.28.apk",
+    "sha256":  "0818db480f9a3420331ad4104ecad27b95f54025a3266d0b372893a2675e21e7"
 }
