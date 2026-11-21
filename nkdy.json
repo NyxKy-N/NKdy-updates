@@ -1,7 +1,7 @@
 {
-    "versionCode":  77,
-    "versionName":  "5.9.34",
-    "changelog":  "v5.9.34 统一设计系统、视觉精修与物理动效升级（1~7 项全落地，适配抖音 41.0 / 41.1 / 41.2）：1. 新增 NkdyUiKit 统一设计令牌与 NkdyBottomSheet 磨砂玻璃弹层基座（本地编辑/原图预览/撤回抽屉/常访问管理全面统一，带速度判定跟手下拉关闭）；2. 侧边栏打开即刻后台同步 NKdy App 主题色与配置；3. 顶部灵动胶囊 HUD 精修：四态矢量图标（✓/!/✦/加载环）、玻璃顶部高光、紧贴挖孔与连续状态宽度弹性形变；4. 侧边栏 2×4 控制中心升级 8 枚自绘矢量图标与开启态主题微光渐变；5. 常访问头像光环 + 访问次数微标，撤回抽屉升级相对时间胶囊与复制图标；6. 统一全局物理动效 NkdyMotion（所有弹层、灵动胶囊与齿轮菜单改为原地缩小收起不上移，并为宿主二级弹窗增加统一渐入动效）；7. 侧边栏官方/NKdy 模式切换升级为齿轮圆心圆形揭示（Circular Reveal）。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.34.apk",
-    "sha256":  "88688b2b094ce4e20c45d6ad81291ee137aaecba029af87519efc1689fbd3f90"
+    "versionCode":  78,
+    "versionName":  "5.9.35",
+    "changelog":  "v5.9.35 灵动胶囊位置优化 + 全链路主线程性能优化（适配抖音 41.0 / 41.1 / 41.2）：1. 顶部灵动胶囊 HUD 调整至顶栏下方（topInset + 68dp），避开顶部液态玻璃导航栏与侧栏头像行；2. HostConfig 增加远端配置原串比对缓存，配置未变时零 JSON 反序列化且重读间隔拉长至 1.2s；3. MessageRewriter 改用无锁快照 + TextSink 聊天页前置短路 + RecallGuard 无撤回 O(1) 短路，消除刷视频时 95%+ 无效 setText 开销；4. ProfileStatsHook 用零分配字符循环替代热路径 Regex 并跳过非主页 Activity；5. FollowButtonTint 长度短路防无效字符串分配并将全局布局防抖优化至 320ms；6. PlusBadgeTint 仅挂载 MainActivity 且绘制检测节流至 ~30fps / 450ms 扫描冷却；7. FeedPurify 增加已净化列表 O(1) 缓存与惰性分配，SidebarPage 消除 120Hz 坐标数组分配并优化抽屉关闭期零开销跳过。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.35.apk",
+    "sha256":  "dfdc431f942bda9f5b3c687c404ef37fd1f9fd950ef96f2844b3570f47e9d0ce"
 }
