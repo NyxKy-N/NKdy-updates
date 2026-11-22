@@ -1,7 +1,7 @@
 {
-    "versionCode":  81,
-    "versionName":  "5.9.38",
-    "changelog":  "1. 新增评论区 IP 属地旁显示城市（兼容 41.2.0 R8 混淆，支持省/市去重与 ISO 国家码过滤）；2. 修复侧边栏天气卡片刷新按钮图标偏下，上移 2dp 视觉居中；3. 侧边栏「今日已续火花 ▸」点击弹出续火明细抽屉并支持一键补续；4. 新增聊天页图片/表情包双击无水印一键保存；5. 无水印保存新增磨砂动作单（视频/实况照片、提取原声 MP3、高清封面）；6. 新增多厂商实况动图标准自动适配（小米 MVIMG、OPPO/一加/真我 OLIVE、vivo/iQOO LIVE、三星 MotionPhoto_Data、华为/荣耀、标准 Android）；7. 评论区支持原格式 GIF 下载；8. 新增 NKdy 设备机器码绑定与跨设备配置导入校验",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.38.apk",
-    "sha256":  "367894680a5da5429ee2b0736946b798bc3b25d25bc3d5492f56f4b90add744a"
+    "versionCode":  82,
+    "versionName":  "5.9.39",
+    "changelog":  "1. 设备机器码改为首次启动自动绑定本机并实时同步至抖音宿主（无需手动点击绑定）；2. 设置页机器码卡片展示「已自动绑定」状态、本机机器码、HMAC 授权校验码与实况标准，并支持一键复制完整设备凭证；3. 导入未绑定配置时自动继承本机绑定保护",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.39.apk",
+    "sha256":  "db171019ff9742f13c046ab8b93ca759dbc8fe1da29153652a90ad0b54140491"
 }
