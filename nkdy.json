@@ -1,7 +1,7 @@
 {
-    "versionCode":  82,
-    "versionName":  "5.9.39",
-    "changelog":  "1. 设备机器码改为首次启动自动绑定本机并实时同步至抖音宿主（无需手动点击绑定）；2. 设置页机器码卡片展示「已自动绑定」状态、本机机器码、HMAC 授权校验码与实况标准，并支持一键复制完整设备凭证；3. 导入未绑定配置时自动继承本机绑定保护",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.39.apk",
-    "sha256":  "db171019ff9742f13c046ab8b93ca759dbc8fe1da29153652a90ad0b54140491"
+    "versionCode":  83,
+    "versionName":  "5.9.40",
+    "changelog":  "1. 图文/实况合集新增多选挑选下载抽屉（带缩略图、实况角标、全选/反选/前3张）；2. 新增 10 档自定义长按视频倍速（1.0x~4.0x）；3. 新增作品与评论精确发布时间显示；4. 侧边栏天气卡片点击弹出 24h 逐小时+未来预报磨砂抽屉并支持手动切换城市；5. 主页新增实时 Hook 挂载健康体检面板（12 项绿灯实时上报）与 3 栏 KPI 概览；6. 删除评论显示城市；7. 新增 GitHub 远程防倒卖/黑名单吊销 Kill-Switch（policy.json）与云端风控状态校验；8. 全面精修 NKdy App UI/UX（保留液态底栏不动）；9. 调发送时间独立二级页面打开时自动隐藏底栏，小时/分钟升级为无限循环滚轮并加刻度震动反馈",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.40.apk",
+    "sha256":  "d501ce2cedc2f759d7507f2cddf47bc7c4ea4b8737ecb78b2192f913c532759b"
 }
