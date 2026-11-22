@@ -1,7 +1,7 @@
 {
-    "versionCode":  95,
-    "versionName":  "5.9.52",
-    "changelog":  "1. 修复定时自动续火花到点未静默发出、需手动进抖音才补发的根因：将唤醒与保活目标从 :push 子进程改为抖音主进程导出服务（FrontierChannelService 等），配合 tempwhitelist 走 start-service，彻底消除 :push 反复崩溃（ForegroundServiceDidNotStartInTimeException）与假唤醒\n2. 后台防冻结不再绑定防撤回开关：开启自动续火花或唤醒时自动为抖音与 NKdy 放行 Doze 电池白名单、待机桶（active）、RUN_ANY_IN_BACKGROUND 与后台网络白名单（netpolicy）\n3. 优化续火花唤醒策略：抖音主进程心跳过期时优先解冻 + 发即时同步信号尝试无杀恢复（保留热 IM 会话），确认无法恢复再冷重启\n4. 按待发目标数量动态拉长保活窗口与复查超时，目标全部发完后自动跳过剩余保活闹钟",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.52.apk",
-    "sha256":  "65ef5aba5d51a0214a5d88027328c089902f2a2fcf1dc0ae8aaa20badb42c27f"
+    "versionCode":  96,
+    "versionName":  "5.9.53",
+    "changelog":  "1. 首次进入 NKdy 自动同步放行抖音与 NKdy 的电池白名单（Doze）、待机桶（active）、RUN_ANY_IN_BACKGROUND 与后台网络白名单（netpolicy），无需等到开启防撤回或闹钟触发\n2. 首次启动「后台设置向导」升级为 4 步双应用引导：同时展示 NKdy 与抖音的电池白名单实时状态，新增「Root 一键放行 NKdy + 抖音白名单」与「抖音省电策略」直达入口\n3. 适配 HyperOS 2/3/4 (Android 15~17) 专属省电策略 / 后台管理 Intent（MANAGER_BACKGROUND / PowerDetailActivity），同时兼容 MIUI / OriginOS / ColorOS / MagicOS / HarmonyOS / OneUI\n4. 设置页「后台设置向导」状态文案实时同步检测 NKdy 与抖音两项电池白名单状态",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.53.apk",
+    "sha256":  "0f653d5942c230cc55f85ed4d1e55a3966621c3f63db5f1de394a98bab68d0dc"
 }
