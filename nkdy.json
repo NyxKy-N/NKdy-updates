@@ -1,7 +1,7 @@
 {
-    "versionCode":  89,
-    "versionName":  "5.9.46",
-    "changelog":  "1. 外观工作室接入「长按倍速调节」卡片，支持全部 5 张侧边栏卡片自由拖拽排序与显隐控制；2. 侧边栏倍速卡与功能页均支持按官方实测可用的 10 档预设自由增删倍速选项（至少保留 1 档，自适应网格对齐）；3. 优化「时间抖动」滑块为液态玻璃 LiquidSlider，与全应用液态玻璃控件视觉统一；4. 精修侧边栏底部防骗声明为单行呈现",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.46.apk",
-    "sha256":  "08c394d9be14a0492b3403a861a5fd70699f8282dcdd7a7280f83e7fe865291d"
+    "versionCode":  90,
+    "versionName":  "5.9.47",
+    "changelog":  "1. 优化顶部状态栏磨砂模糊：仅在页面向下滑动时平滑浮现，停留在最顶部时完全无模糊，跨 Tab 左右滑动支持无缝过渡（主页/功能/设置/关于/日志/外观工作室全覆盖）；2. 全面重构好友列表 UI/UX 并加入弹簧展开与收起动画：新增展开/收起动态胶囊箭头、! 功能说明气泡、全部/仅看已选筛选、快捷搜索栏、选中态磨砂高亮卡片与头像描边、今日已续状态圆点与底栏一键展开/收起",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.47.apk",
+    "sha256":  "0cd29325a6ec0061b51a1232ec8df1c80306ae04bb42b807d4e2dd4f87b05467"
 }
