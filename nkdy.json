@@ -1,7 +1,7 @@
 {
-    "versionCode":  92,
-    "versionName":  "5.9.49",
-    "changelog":  "1. 抖音自定义侧边栏新增「合养精灵助手」卡片（支持免费喂食/领火星/领爱心三项快捷开关、一键立即巡检与实时结果展示，并接入外观工作室 6 卡片拖拽排序与显隐控制）；2. 强化防杀进程静默保活：合养精灵每喂完/领完一只小火人、自动续火花每发完一个目标及休眠唤醒前后均自动触发宿主 FGS 静默唤醒保活 + WakeLock；3. 新增「合养精灵黑名单」（抖音侧边栏毛玻璃抽屉与 NKdy App 双向实时同步），将指定小火人加入黑名单后自动跳过免费喂食、领火星与领爱心",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.49.apk",
-    "sha256":  "285c5246d732455585256dadbfdd14b61c00e9783d4682cfb4e2ea4c6825ca92"
+    "versionCode":  93,
+    "versionName":  "5.9.50",
+    "changelog":  "1. 合养精灵助手（NKdy 管理器与抖音侧边栏双端）新增免费喂养 4 小时实时倒计时：当所有非黑名单小火人成功喂养后自动启动 4 小时倒计时（侧边栏展开时每秒跳秒，管理器附带实时进度条），冷却结束后开启自动喂食将自动续喂；2. 管理器「合养精灵助手」卡片底部新增 HyperOS 后台冻网使用提示条；3. 全面增强跨系统兼容性：DeviceTuning 自启动与省电策略一键跳转全面适配 HyperOS 1/2/3/4、OriginOS、ColorOS、MagicOS、HarmonyOS/EMUI、OneUI、Flyme 与 AOSP",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.50.apk",
+    "sha256":  "6ea0c5c2a28f4b352e20572493b833c8eda8b07ef7133fa19de9e688a92a300a"
 }
