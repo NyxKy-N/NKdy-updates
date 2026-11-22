@@ -1,7 +1,7 @@
 {
-    "versionCode":  90,
-    "versionName":  "5.9.47",
-    "changelog":  "1. 优化顶部状态栏磨砂模糊：仅在页面向下滑动时平滑浮现，停留在最顶部时完全无模糊，跨 Tab 左右滑动支持无缝过渡（主页/功能/设置/关于/日志/外观工作室全覆盖）；2. 全面重构好友列表 UI/UX 并加入弹簧展开与收起动画：新增展开/收起动态胶囊箭头、! 功能说明气泡、全部/仅看已选筛选、快捷搜索栏、选中态磨砂高亮卡片与头像描边、今日已续状态圆点与底栏一键展开/收起",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.47.apk",
-    "sha256":  "0cd29325a6ec0061b51a1232ec8df1c80306ae04bb42b807d4e2dd4f87b05467"
+    "versionCode":  91,
+    "versionName":  "5.9.48",
+    "changelog":  "1. 新增「合养精灵助手」（路线 A：宿主内 TTNet 协议直调），复用抖音主进程真实登录态与完整签名栈；2. 支持独立开关「自动免费喂食」（严格筛选 is_free=true 且 price=0 的免费食物，绝不消耗火星或抖币）、「自动领火星」（自动扫描已完成任务与子任务并领取火星奖励）、「自动领爱心」（自动触发每日摸摸互动并领取全部可领亲密度爱心）；3. 支持按天自动巡检与一键「立即喂食 / 领取一次」，每只精灵间 2.5~4.5 秒随机防风控间隔，首页 Hook 健康体检同步接入 15/15 绿灯状态",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.48.apk",
+    "sha256":  "fba5fcede637ee8f565dc3b47727973bbfae680925bd97b45b2e11c1d334dae9"
 }
