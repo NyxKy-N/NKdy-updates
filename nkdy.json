@@ -1,7 +1,7 @@
 {
-    "versionCode":  86,
-    "versionName":  "5.9.43",
-    "changelog":  "1. 新增免费防骗强露出声明（首次启动弹窗、关于页「免费防骗声明」专属卡片与抖音自定义侧边栏底部声明），提醒付费购得用户立即退款举报；2. 新增 APK 签名证书 SHA-256 与包名双向防二次打包自检（IntegrityGuard），反编译改字/换包名/重签直接禁用宿主核心注入并在首页与关于页展示正版签名校验状态；3. 体检面板升级为 13 项全绿灯实时上报",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.43.apk",
-    "sha256":  "2b85b8a790bfa71e1c3cbd2601e159bb54c4577dae35b3066519270a4ebb42f0"
+    "versionCode":  87,
+    "versionName":  "5.9.44",
+    "changelog":  "1. 新增一机一码离线激活验证机制（HMAC-SHA256 绑定硬件指纹与机器码）：未激活时 App 锁定在专属授权激活页、抖音宿主拒绝全部核心模块与液态玻璃栏注入，他人下载 dev/release 包均无法使用；2. 体检面板升级为 14 项全绿灯（新增「专属授权激活」项）；3. 已清理 v5.9.43 之前的全部 69 个历史 Release 与 Tag",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.44.apk",
+    "sha256":  "54b62600a7c22877c4bac7c66d5261755075073105fe4933887617eb8cf197c0"
 }
