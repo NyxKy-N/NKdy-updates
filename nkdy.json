@@ -1,7 +1,7 @@
 {
-    "versionCode":  84,
-    "versionName":  "5.9.41",
-    "changelog":  "修复自定义长按倍速在抖音 41.x 上不生效的问题：补齐字节自研 com.ss.ttm.player.PlaybackParams.setSpeed/getSpeed、TTVideoEngine.setPlaybackParams、PlayerManager.setSpeed 及延迟加载补挂，真机实测长按 2.0x -\u003e 4.0x 即时生效并触发顶部灵动胶囊提示",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.41.apk",
-    "sha256":  "82631e06c1e03495f3ee5ea47e84604248364363b4bf73dcc9befe2b53c49069"
+    "versionCode":  85,
+    "versionName":  "5.9.42",
+    "changelog":  "彻底修复自定义长按倍速弹胶囊但视频仍 1x 的问题：实测确认抖音 libttmplayer.so 的 key=60 内核硬上限为 3.0x（超过 3.0x 返回 ret=-1 导致退回 1x）；现自动阶梯探测内核真正返回 ret=0 的生效倍速并在确认生效后才弹胶囊，同时将倍速选项优化为 0.5x/0.75x/1.25x/1.5x/1.75x/2.0x/2.25x/2.5x/2.75x/3.0x 全可用档位",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.42.apk",
+    "sha256":  "20c2e1cbf9696877cdd8408d308b84ffe834d2e9b6f446a23bd73c6c65ff05e1"
 }
