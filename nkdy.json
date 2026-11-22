@@ -1,7 +1,7 @@
 {
-    "versionCode":  94,
-    "versionName":  "5.9.51",
-    "changelog":  "修复抖音内点击搜索页（SearchResultActivity）整页蒙上一层模糊的问题：HostDialogStyle 精准排除非交互/不可聚焦、隐形测高窄条（如 2px×fill 软键盘测高 Dialog）及原本无背景压暗的辅助窗口，仅对真实模态卡片弹窗施加背景微模糊",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.51.apk",
-    "sha256":  "72338da50a9310b564108caadb2225c483a6ad95761b147d137ccd2636b49801"
+    "versionCode":  95,
+    "versionName":  "5.9.52",
+    "changelog":  "1. 修复定时自动续火花到点未静默发出、需手动进抖音才补发的根因：将唤醒与保活目标从 :push 子进程改为抖音主进程导出服务（FrontierChannelService 等），配合 tempwhitelist 走 start-service，彻底消除 :push 反复崩溃（ForegroundServiceDidNotStartInTimeException）与假唤醒\n2. 后台防冻结不再绑定防撤回开关：开启自动续火花或唤醒时自动为抖音与 NKdy 放行 Doze 电池白名单、待机桶（active）、RUN_ANY_IN_BACKGROUND 与后台网络白名单（netpolicy）\n3. 优化续火花唤醒策略：抖音主进程心跳过期时优先解冻 + 发即时同步信号尝试无杀恢复（保留热 IM 会话），确认无法恢复再冷重启\n4. 按待发目标数量动态拉长保活窗口与复查超时，目标全部发完后自动跳过剩余保活闹钟",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.52.apk",
+    "sha256":  "65ef5aba5d51a0214a5d88027328c089902f2a2fcf1dc0ae8aaa20badb42c27f"
 }
