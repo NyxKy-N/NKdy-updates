@@ -1,7 +1,7 @@
 {
-    "versionCode":  97,
-    "versionName":  "5.9.54",
-    "changelog":  "1. 全新重构首次启动欢迎页为全屏沉浸式极光玻璃界面：新增 NK 品牌徽标、自动识别系统 ROM（HyperOS / OriginOS / ColorOS / MagicOS / HarmonyOS / OneUI）与 Root 状态胶囊\n2. 新增「后台白名单准备度」实时进度条与 Root 一键放行（NKdy + 抖音）按钮；每项后台步骤改为可直接点击跳转系统设置的交互卡片（支持 NKdy 省电策略、抖音省电策略、自启动管理）\n3. 将全屏欢迎页与时间选择抽屉提升至 FrostedStatusFrame 前景层，彻底避免底部主按钮被底边磨砂层压字模糊\n4. 全量真机验收通过（管理器 4 页、14/14 Hook 绿灯、搜索页无模糊、侧边栏全卡片、合养精灵 4 小时倒计时与静默唤醒，零崩溃）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.54.apk",
-    "sha256":  "29b204b704a561d68e3d6df5582cf40e28d0a23899df512a212e7736e1ab53d7"
+    "versionCode":  98,
+    "versionName":  "5.9.55",
+    "changelog":  "1. 全面精简优化 NKdy 管理器界面布局，消除杂乱与重复项\n2. 主页升级：快捷模块开关由参差流式胶囊改为工整 2×4 等宽网格；Hook 挂载健康体检（14 项）改为默认收起的一行绿灯摘要；移除多余包名与冗长说明，运行环境支持按需展开\n3. 功能页重构：顶部新增四分类分段胶囊栏（续火合养 / 隐私防撤 / 视频增强 / 液态玻璃），将原本 12 张堆叠长卡片拆为四个清爽视图，并移除冗余总览折叠卡\n4. 设置页去噪：移除与功能页重复的发送时间/抖动卡片、合并外观方案入口、测试唤醒改为并排单行、设备机器码与风控默认收起为一行状态摘要",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.55.apk",
+    "sha256":  "8a78445b67ec31fb136439c3dd86ca6050274f6da7c711fdca948cddaee27217"
 }
