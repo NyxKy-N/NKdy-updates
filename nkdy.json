@@ -1,7 +1,7 @@
 {
-    "versionCode":  80,
-    "versionName":  "5.9.37",
-    "changelog":  "v5.9.37 侧边栏极致流畅度优化 + 天气卡片重做 + 精简冗余功能（适配抖音 41.0 / 41.1 / 41.2）：1. 彻底修复侧边栏展开后滑动卡顿：展开态几何复查节流至 64ms、移除 ScrollView 重型 LayoutTransition 与 120Hz 无限红点动画、磁贴状态缓存避免重复重建 Drawable、VisitorBook 查询移至后台线程并增加常访问渲染去重、卡片入场启用 GPU 硬件层；2. 移除「跳过直播 / 自动连播 / 沉浸清屏 / 跳过广告（含带货）」，侧边栏控制中心回归精简高效的 2×3 六宫格；3. 全新重做侧边栏天气卡片：斜向大气渐变 + 顶部微高光玻璃层、大号温度 + 磨砂天气状态胶囊 + 体感并排主行、可折叠三栏磨砂小指标条（高低温 / 湿度 / 风速）与圆形磨砂刷新按钮。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.37.apk",
-    "sha256":  "5991d2fd62f92b74074eb0c70c9b4eb270463aca9e5ff9db9db92632c80556b3"
+    "versionCode":  81,
+    "versionName":  "5.9.38",
+    "changelog":  "1. 新增评论区 IP 属地旁显示城市（兼容 41.2.0 R8 混淆，支持省/市去重与 ISO 国家码过滤）；2. 修复侧边栏天气卡片刷新按钮图标偏下，上移 2dp 视觉居中；3. 侧边栏「今日已续火花 ▸」点击弹出续火明细抽屉并支持一键补续；4. 新增聊天页图片/表情包双击无水印一键保存；5. 无水印保存新增磨砂动作单（视频/实况照片、提取原声 MP3、高清封面）；6. 新增多厂商实况动图标准自动适配（小米 MVIMG、OPPO/一加/真我 OLIVE、vivo/iQOO LIVE、三星 MotionPhoto_Data、华为/荣耀、标准 Android）；7. 评论区支持原格式 GIF 下载；8. 新增 NKdy 设备机器码绑定与跨设备配置导入校验",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.38.apk",
+    "sha256":  "367894680a5da5429ee2b0736946b798bc3b25d25bc3d5492f56f4b90add744a"
 }
