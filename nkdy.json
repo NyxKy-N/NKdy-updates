@@ -1,7 +1,7 @@
 {
-    "versionCode":  85,
-    "versionName":  "5.9.42",
-    "changelog":  "彻底修复自定义长按倍速弹胶囊但视频仍 1x 的问题：实测确认抖音 libttmplayer.so 的 key=60 内核硬上限为 3.0x（超过 3.0x 返回 ret=-1 导致退回 1x）；现自动阶梯探测内核真正返回 ret=0 的生效倍速并在确认生效后才弹胶囊，同时将倍速选项优化为 0.5x/0.75x/1.25x/1.5x/1.75x/2.0x/2.25x/2.5x/2.75x/3.0x 全可用档位",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.42.apk",
-    "sha256":  "20c2e1cbf9696877cdd8408d308b84ffe834d2e9b6f446a23bd73c6c65ff05e1"
+    "versionCode":  86,
+    "versionName":  "5.9.43",
+    "changelog":  "1. 新增免费防骗强露出声明（首次启动弹窗、关于页「免费防骗声明」专属卡片与抖音自定义侧边栏底部声明），提醒付费购得用户立即退款举报；2. 新增 APK 签名证书 SHA-256 与包名双向防二次打包自检（IntegrityGuard），反编译改字/换包名/重签直接禁用宿主核心注入并在首页与关于页展示正版签名校验状态；3. 体检面板升级为 13 项全绿灯实时上报",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.43.apk",
+    "sha256":  "2b85b8a790bfa71e1c3cbd2601e159bb54c4577dae35b3066519270a4ebb42f0"
 }
