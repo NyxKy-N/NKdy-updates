@@ -1,7 +1,7 @@
 {
-    "versionCode":  87,
-    "versionName":  "5.9.44",
-    "changelog":  "1. 新增一机一码离线激活验证机制（HMAC-SHA256 绑定硬件指纹与机器码）：未激活时 App 锁定在专属授权激活页、抖音宿主拒绝全部核心模块与液态玻璃栏注入，他人下载 dev/release 包均无法使用；2. 体检面板升级为 14 项全绿灯（新增「专属授权激活」项）；3. 已清理 v5.9.43 之前的全部 69 个历史 Release 与 Tag",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.44.apk",
-    "sha256":  "54b62600a7c22877c4bac7c66d5261755075073105fe4933887617eb8cf197c0"
+    "versionCode":  88,
+    "versionName":  "5.9.45",
+    "changelog":  "1. 全应用功能说明统一收纳到标题旁圆形「!」感叹号按钮中，点击平滑展开磨砂说明卡片，默认界面更加清爽极简；2. 重构「时间抖动」UI/UX 调节块：新增实时偏移预览胶囊、6 档快捷预设（准点/5/10/15/30/60分）与 5 分钟步进震动滑块；3. 抖音自定义侧边栏新增「长按倍速调节」独立卡片（2×5 全 10 档胶囊矩阵 0.5x~3.0x，点选即刻生效并双向同步至 NKdy App，支持齿轮菜单开关显示）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.45.apk",
+    "sha256":  "fe8b309e903bb8763003b79866a0ace446184e79fda6b773f1d93c0fa57a3183"
 }
