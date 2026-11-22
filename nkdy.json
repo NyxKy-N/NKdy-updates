@@ -1,7 +1,7 @@
 {
-    "versionCode":  99,
-    "versionName":  "5.9.56",
-    "changelog":  "1. 功能页四分类胶囊栏升级为可滑动切换的液态滑块栏（FeatureCategoryBar）：支持手指左右拖动 1:1 跟手滑动切换「续火合养 / 隐私防撤 / 视频增强 / 液态玻璃」，带弹簧回弹、微缩放与逐格轻震动反馈\n2. 全面重构「关于」页为半透极光玻璃风格：新增居中品牌 Hero 卡（NK 徽标 + 版本/正版签名胶囊 + 检查更新与 GitHub 直达按钮），让动态极光自然透过卡片边缘\n3. 精简关于页信息层次：作者致谢与防骗声明改为轻透玻璃风格，使用要点与开源组件默认折叠按需展开",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.56.apk",
-    "sha256":  "a5a19c48dd894327fe8628202f61f5c47ed39ac6411f3044c5e06650fe873f4b"
+    "versionCode":  100,
+    "versionName":  "5.9.57",
+    "changelog":  "1. 将欢迎页、关于页与授权激活页的「NK」文字徽标统一替换为高清 NKdy 应用图标（兼容 AdaptiveIconDrawable 光栅化与圆角玻璃描边）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.57.apk",
+    "sha256":  "a55394ad42a967a70a28c03dac921d9493369b425c4c7c8a42170f8b675f3812"
 }
