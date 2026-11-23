@@ -1,7 +1,7 @@
 {
-    "versionCode":  107,
-    "versionName":  "5.9.64",
-    "changelog":  "新增「抖音页面深度自定义」（消息页 / 个人主页 / 好友聊天页，支持实时热生效与一键还原原生）：消息页支持隐藏顶部日常横栏、折叠互动与系统通知行、隐藏在线绿点与火花标签、会话列表液态玻璃卡片化及自定义顶栏标题；个人主页（仅限本人主页）支持隐藏金刚区功能栏、隐藏创作推广横幅、隐藏顶部胶囊、隐藏私密作品条、隐藏日常/喜欢 Tab 及本机自定义昵称/抖音号/简介/IP标签/编辑主页按钮；好友聊天页支持隐藏快捷表情栏、隐藏顶栏状态、6 套双色高光聊天气泡主题+圆角调节及 4 套聊天背景氛围；同步在 NKdy App「页面外观」与抖音侧边栏「页面定制」浮层中提供双向实时控制",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.64.apk",
-    "sha256":  "b21f60ea0a56e2e26624962e5378e6b982f5344de6a83fe742c96ca973557a6c"
+    "versionCode":  108,
+    "versionName":  "5.9.65",
+    "changelog":  "修复聊天页上下滑动复用后气泡圆角与配色变回原生的问题（带 styleKey 标记 Drawable + PreDraw 帧前重涂）；功能页聊天外观气泡圆角滑杆升级为液态玻璃 LiquidSlider；优化抖音聊天页顶栏与底部输入框样式，全面跟随主题色/预设风格告别原生灰底；修复隐藏输入框上方快捷表情栏不生效的问题（兼容 FrameLayout 嵌套 RecyclerView 并强制折叠）；改为 OnPreDrawListener 帧前同步应用，消除进入自定义个人主页闪一下原生页面的问题；修复消息页隐藏互动与系统通知行、隐藏在线绿点与状态、隐藏火花天数与重燃标签不生效的问题（支持抖音 41.x 虚拟节点与置顶/普通行 1×1 真实底色零色差采样）；全面升级消息页会话液态玻璃卡片样式（主题柔和渐变 + 顶部微光折射描边）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.65.apk",
+    "sha256":  "4b3d0ebcda51017e0e55bc95af1795994b87c027f243a5708f1096b4661baeda"
 }
