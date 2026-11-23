@@ -1,7 +1,7 @@
 {
-    "versionCode":  103,
-    "versionName":  "5.9.60",
-    "changelog":  "合养精灵助手新增喂食食物自定义选择：支持「仅免费食物（默认 0 火星）」「优先免费·最省火星」及 12+ 种抖音官方食物自由指定；NKdy 面板与抖音侧边栏底部抽屉双向实时同步，自动同步抖音最新食物列表并在执行摘要中显示所喂食物与火星消耗",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.60.apk",
-    "sha256":  "8112f783d2028e1cd8855070ab423046b28f3cb6e0c426386d48b01dba8bc883"
+    "versionCode":  104,
+    "versionName":  "5.9.61",
+    "changelog":  "优化「经常访问的人」新作品红点提示：修复多状态机空集合提前短路与渲染缓存未含未看状态导致红点滞后/不消失的问题；新增卡片顶部「N 人有新作品」可点直达汇总胶囊、头像珊瑚红渐变光环、卡片同色镂空描边未看条数徽标/柔和呼吸红点，并在侧边栏展开期间实时秒级同步红点消退",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.61.apk",
+    "sha256":  "7544b967ea927ba5b5683b1bd20a200f7b7a162f7cd3b486829659e3f2430a99"
 }
