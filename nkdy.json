@@ -1,7 +1,7 @@
 {
-    "versionCode":  108,
-    "versionName":  "5.9.65",
-    "changelog":  "修复聊天页上下滑动复用后气泡圆角与配色变回原生的问题（带 styleKey 标记 Drawable + PreDraw 帧前重涂）；功能页聊天外观气泡圆角滑杆升级为液态玻璃 LiquidSlider；优化抖音聊天页顶栏与底部输入框样式，全面跟随主题色/预设风格告别原生灰底；修复隐藏输入框上方快捷表情栏不生效的问题（兼容 FrameLayout 嵌套 RecyclerView 并强制折叠）；改为 OnPreDrawListener 帧前同步应用，消除进入自定义个人主页闪一下原生页面的问题；修复消息页隐藏互动与系统通知行、隐藏在线绿点与状态、隐藏火花天数与重燃标签不生效的问题（支持抖音 41.x 虚拟节点与置顶/普通行 1×1 真实底色零色差采样）；全面升级消息页会话液态玻璃卡片样式（主题柔和渐变 + 顶部微光折射描边）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.65.apk",
-    "sha256":  "4b3d0ebcda51017e0e55bc95af1795994b87c027f243a5708f1096b4661baeda"
+    "versionCode":  109,
+    "versionName":  "5.9.66",
+    "changelog":  "升级统一主题与分页面自由配色中心：内置 10 套一键风格预设，支持一键「全页跟随」或自由为侧边栏、消息页、个人主页、聊天气泡、聊天背景单独搭配颜色；所有页面（推荐页 / 朋友页 / 消息页 / 个人主页 / 好友聊天页）全量适配状态栏与导航栏，实时比对 window.statusBarColor 彻底消除换主题与切页时的顶部双色断层；优化抖音侧边栏改为跟随主题色或自定义色渐变与卡片光泽；修复聊天输入框底层存在更方容器的双框问题，将输入框上抬 12dp 并用主题色无缝填满底部留空；修复分享视频评论/引用卡片仍为抖音原生灰色的问题；通过 ViewOutlineProvider.BACKGROUND 与相对坐标彻底修复刚进聊天页气泡变方问题；移除消息页「隐藏在线绿点与状态」开关",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.66.apk",
+    "sha256":  "f6b554097f6a5c032ebaaf530c01a734cf53f8a20b90e0e946695b3e8d354e8f"
 }
