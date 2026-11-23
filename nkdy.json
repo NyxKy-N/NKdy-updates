@@ -1,7 +1,7 @@
 {
-    "versionCode":  102,
-    "versionName":  "5.9.59",
-    "changelog":  "1. 优化合养精灵助手免费食物识别逻辑：兼容 proto3 省略默认 price=0 字段以及带「免费」标签的食物（强制 food_price=0，绝不误扣火星）\n2. 详细记录全部 12 种食物的中文名称、免费标记与火星价格到日志，方便精准排查",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.59.apk",
-    "sha256":  "4a762108e12d5b70346474180971640166bf1e47067421069a2a109717cebff7"
+    "versionCode":  103,
+    "versionName":  "5.9.60",
+    "changelog":  "合养精灵助手新增喂食食物自定义选择：支持「仅免费食物（默认 0 火星）」「优先免费·最省火星」及 12+ 种抖音官方食物自由指定；NKdy 面板与抖音侧边栏底部抽屉双向实时同步，自动同步抖音最新食物列表并在执行摘要中显示所喂食物与火星消耗",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.60.apk",
+    "sha256":  "8112f783d2028e1cd8855070ab423046b28f3cb6e0c426386d48b01dba8bc883"
 }
