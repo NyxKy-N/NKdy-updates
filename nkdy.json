@@ -1,7 +1,7 @@
 {
-    "versionCode":  104,
-    "versionName":  "5.9.61",
-    "changelog":  "优化「经常访问的人」新作品红点提示：修复多状态机空集合提前短路与渲染缓存未含未看状态导致红点滞后/不消失的问题；新增卡片顶部「N 人有新作品」可点直达汇总胶囊、头像珊瑚红渐变光环、卡片同色镂空描边未看条数徽标/柔和呼吸红点，并在侧边栏展开期间实时秒级同步红点消退",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.61.apk",
-    "sha256":  "7544b967ea927ba5b5683b1bd20a200f7b7a162f7cd3b486829659e3f2430a99"
+    "versionCode":  105,
+    "versionName":  "5.9.62",
+    "changelog":  "修复私信聊天页/消息列表/主页日期被精确时间错误改写为推荐流作品发布时间的问题；全面重构 NKdy 全页面、二级页（全部日志/侧边栏布局/备份与恢复/发送时间）、二级菜单、深浅色磨砂弹窗与抖音内全部底部抽屉/菜单/灵动胶囊的 UI-UX 与 120Hz 物理动效（统一按压回弹、二级页平滑推入退场、同步背景模糊、点外部/返回键顺滑收起、橡皮筋超拖阻尼）",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.62.apk",
+    "sha256":  "f8e0faa665b054f6e6a1249c42eb4becbd601dd898040e0111a01e898253ff20"
 }
