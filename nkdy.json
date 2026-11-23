@@ -1,7 +1,7 @@
 {
-    "versionCode":  106,
-    "versionName":  "5.9.63",
-    "changelog":  "修复好友聊天页双击消息无法修改（兼容抖音 41.x SplashActivity 内嵌聊天层，通过 msg_et 隔离聊天根容器并新增实时视图树兜底命中）；修复个人主页修改粉丝/获赞等数值加上「万」「亿」时字号偏小的问题；移除关于页 GitHub 仓库按钮；日志页顶栏升级为可拖动滑动胶囊并与 4 页 HorizontalPager 1:1 联动；优化功能页分类滑动切换动画，顶栏稳固、内容方向性交叉滑入淡出",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.63.apk",
-    "sha256":  "15f45f702ee8980b6290273cae5e2852054493d7a111403cc0105ba2cc2f4976"
+    "versionCode":  107,
+    "versionName":  "5.9.64",
+    "changelog":  "新增「抖音页面深度自定义」（消息页 / 个人主页 / 好友聊天页，支持实时热生效与一键还原原生）：消息页支持隐藏顶部日常横栏、折叠互动与系统通知行、隐藏在线绿点与火花标签、会话列表液态玻璃卡片化及自定义顶栏标题；个人主页（仅限本人主页）支持隐藏金刚区功能栏、隐藏创作推广横幅、隐藏顶部胶囊、隐藏私密作品条、隐藏日常/喜欢 Tab 及本机自定义昵称/抖音号/简介/IP标签/编辑主页按钮；好友聊天页支持隐藏快捷表情栏、隐藏顶栏状态、6 套双色高光聊天气泡主题+圆角调节及 4 套聊天背景氛围；同步在 NKdy App「页面外观」与抖音侧边栏「页面定制」浮层中提供双向实时控制",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.64.apk",
+    "sha256":  "b21f60ea0a56e2e26624962e5378e6b982f5344de6a83fe742c96ca973557a6c"
 }
