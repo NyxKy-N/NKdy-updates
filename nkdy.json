@@ -1,7 +1,7 @@
 {
-    "versionCode":  100,
-    "versionName":  "5.9.57",
-    "changelog":  "1. 将欢迎页、关于页与授权激活页的「NK」文字徽标统一替换为高清 NKdy 应用图标（兼容 AdaptiveIconDrawable 光栅化与圆角玻璃描边）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.57.apk",
-    "sha256":  "a55394ad42a967a70a28c03dac921d9493369b425c4c7c8a42170f8b675f3812"
+    "versionCode":  101,
+    "versionName":  "5.9.58",
+    "changelog":  "1. 修复合养精灵助手过期 4 小时倒计时未清零导致每 10 分钟死循环重复巡检的问题（ConfigProvider / HostConfig / AutoPetElf）\n2. 优化免费食物判定逻辑：严格对齐抖音原版 JS 协议，兼容服务端省略 price 字段或带划线原价的免费食物（强制 food_price=0 绝不扣火星），并逐个尝试全部免费候选\n3. 修复管理器点击「立即喂食 / 领取一次」在心跳未超 90 秒时不主动解冻抖音主进程的问题，以及冷启动 8 秒抢跑未就绪的问题\n4. 巡检摘要与日志现直接展示喂食跳过真实原因（如 暂无免费食 / 冷却中 / 网络超时）与服务端食物列表明细",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.58.apk",
+    "sha256":  "3c89c68a20bb0567ca2f13bae43f70defafc5c5474d3d2f44eaff4cf78e4cdd0"
 }
