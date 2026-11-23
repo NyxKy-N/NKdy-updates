@@ -1,7 +1,7 @@
 {
-    "versionCode":  105,
-    "versionName":  "5.9.62",
-    "changelog":  "修复私信聊天页/消息列表/主页日期被精确时间错误改写为推荐流作品发布时间的问题；全面重构 NKdy 全页面、二级页（全部日志/侧边栏布局/备份与恢复/发送时间）、二级菜单、深浅色磨砂弹窗与抖音内全部底部抽屉/菜单/灵动胶囊的 UI-UX 与 120Hz 物理动效（统一按压回弹、二级页平滑推入退场、同步背景模糊、点外部/返回键顺滑收起、橡皮筋超拖阻尼）",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.62.apk",
-    "sha256":  "f8e0faa665b054f6e6a1249c42eb4becbd601dd898040e0111a01e898253ff20"
+    "versionCode":  106,
+    "versionName":  "5.9.63",
+    "changelog":  "修复好友聊天页双击消息无法修改（兼容抖音 41.x SplashActivity 内嵌聊天层，通过 msg_et 隔离聊天根容器并新增实时视图树兜底命中）；修复个人主页修改粉丝/获赞等数值加上「万」「亿」时字号偏小的问题；移除关于页 GitHub 仓库按钮；日志页顶栏升级为可拖动滑动胶囊并与 4 页 HorizontalPager 1:1 联动；优化功能页分类滑动切换动画，顶栏稳固、内容方向性交叉滑入淡出",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.63.apk",
+    "sha256":  "15f45f702ee8980b6290273cae5e2852054493d7a111403cc0105ba2cc2f4976"
 }
