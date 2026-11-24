@@ -1,7 +1,7 @@
 {
-    "versionCode":  117,
-    "versionName":  "5.9.74",
-    "changelog":  "v5.9.74: 优化粉丝指数「回关」及列表关注/私信按钮样式：兼容标准 StateListDrawable/RippleDrawable 背景并升级为全圆角柔光渐变胶囊与细腻高光描边；精准修复聊天页消息流内联「🔥 续火花」胶囊按钮定位（直击内层 id/l9+ 胶囊，消除外层偏移与原生灰底遮挡），统一为主题微渐变玻璃描边胶囊。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.74.apk",
-    "sha256":  "2a26430cec68bd93427f4dd546583642bc83ab895b7b7e046b929d126e42f4e5"
+    "versionCode":  118,
+    "versionName":  "5.9.75",
+    "changelog":  "v5.9.75: 通过 adb 真机崩溃日志定位并彻底修复进入「粉丝指数」闪退的 NullPointerException（FollowButtonTint.hasRed 遍历 DrawableContainerState.children 与 LayerDrawable 空槽位未判空），并补齐主线程异常兜底；真机实测粉丝指数/关注/朋友/搜索结果全页面零崩溃。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.75.apk",
+    "sha256":  "6c6a1b54d1f3e39fbcab9750a0aebba49fe1e10a277e603d249285f3bdc92723"
 }
