@@ -1,7 +1,7 @@
 {
-    "versionCode":  116,
-    "versionName":  "5.9.73",
-    "changelog":  "v5.9.73: 修复进入「粉丝指数」分页闪退的问题：跳过 BulletContainerView/Lynx 子树防止 BackgroundDrawable 类型强转崩溃；列表关注按钮与卡片改用真正继承自 GradientDrawable 的 NkdyTaggedGradientDrawable 防止 FollowUserButton 强转崩溃；修复 FollowButtonTint 在 R8 混淆下的背景识别冲突。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.73.apk",
-    "sha256":  "23c3bcd311d47860ace569b284f4e24a9f8a6188474f913b79fcd5f14680de5d"
+    "versionCode":  117,
+    "versionName":  "5.9.74",
+    "changelog":  "v5.9.74: 优化粉丝指数「回关」及列表关注/私信按钮样式：兼容标准 StateListDrawable/RippleDrawable 背景并升级为全圆角柔光渐变胶囊与细腻高光描边；精准修复聊天页消息流内联「🔥 续火花」胶囊按钮定位（直击内层 id/l9+ 胶囊，消除外层偏移与原生灰底遮挡），统一为主题微渐变玻璃描边胶囊。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.74.apk",
+    "sha256":  "2a26430cec68bd93427f4dd546583642bc83ab895b7b7e046b929d126e42f4e5"
 }
