@@ -1,7 +1,7 @@
 {
-    "versionCode":  111,
-    "versionName":  "5.9.68",
-    "changelog":  "v5.9.68: 优化抖音评论区主题与纯黑玻璃样式；修复深色/彩色背景下主页与推荐页关注加号和文字发黑问题，统一改为高对比纯白；全面适配抖音内与 NKdy 管理器所有二级弹窗、底部菜单（含分享面板/侧边栏/日志页/外观页/玻璃弹窗）跟随主题色与纯黑模式；修复本人主页私密作品后方多余外层容器。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.68.apk",
-    "sha256":  "b633cdbc2f05df12403c5a10c180a884c90370f0b9f01868958ceb32571a78b8"
+    "versionCode":  112,
+    "versionName":  "5.9.69",
+    "changelog":  "v5.9.69: 优化抖音分享弹层小白条区域无缝填色适配并移除底部描边截断线；修复评论区打开时误选全屏容器遮住上方视频的问题；评论区与底部弹层改用仅顶边圆弧高光描边，彻底消除左右漏色；评论区底部输入框停靠态抬高 30dp 且下方区域无缝填充主题底色。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.69.apk",
+    "sha256":  "1a71a63bdf41bb8ce5d0b6fad03f6060e3b6e905088cbea616247cf102af13fe"
 }
