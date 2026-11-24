@@ -1,7 +1,7 @@
 {
-    "versionCode":  114,
-    "versionName":  "5.9.71",
-    "changelog":  "v5.9.71: 修复互关页内「朋友」分页被 DmtStatusView 涂黑盖住的问题；适配「关注」「粉丝指数」页 FollowUserButton（互相关注/已关注/回关）按钮、关注页快捷分类卡与筛选胶囊，修复「粉丝指数」汇总卡双层叠框异常；放宽搜索结果页深度并兼容多子容器与 CardView，彻底适配「综合」分页下方双列视频/图文/语录卡片；聊天消息流内联「🔥 续火花」胶囊按钮同步适配主题玻璃描边。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.71.apk",
-    "sha256":  "b145e76bd799dfd8b95ba2423ee0a2b56147a2b8fecaa147ff598c396fc17289"
+    "versionCode":  115,
+    "versionName":  "5.9.72",
+    "changelog":  "v5.9.72: 修复搜索结果页背景残留原生灰色问题（深度清透明中间全宽容器并统一底层主题/纯黑背景）；删除互关/关注/粉丝指数/朋友页常规列表行的玻璃卡片化；移除消息页「会话列表玻璃卡片化」开关与渲染；适配朋友页「为你推荐」下方的推荐好友卡片与加朋友/打招呼按钮。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.72.apk",
+    "sha256":  "e9412c7f72a2e6c85614d41e0489c51ee688b3e8604c9609b3fec47d82484322"
 }
