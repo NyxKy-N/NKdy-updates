@@ -1,7 +1,7 @@
 {
-    "versionCode":  113,
-    "versionName":  "5.9.70",
-    "changelog":  "v5.9.70: 移除聊天页「隐藏顶栏状态与火花徽标」开关；聊天输入框上方快捷表情栏改为透明悬浮主题玻璃小胶囊；适配未关注主页纸飞机私信图标按钮与好友主页「朋友」按钮（MateButton）统一主题玻璃样式；修复 NKdy 日志页顶部玻璃卡片蓝青底色偏差；新增主页访客页（ProfileVisitorActivity）、互关/关注/粉丝指数/朋友页（FollowRelationTabActivity）以及搜索结果瀑布流卡片与筛选胶囊的全面主题适配与视觉优化。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.70.apk",
-    "sha256":  "333e8f8ee6bd517b8871303ed8a906fb3da0c62e040d4e38a8c1bb0be08dd54b"
+    "versionCode":  114,
+    "versionName":  "5.9.71",
+    "changelog":  "v5.9.71: 修复互关页内「朋友」分页被 DmtStatusView 涂黑盖住的问题；适配「关注」「粉丝指数」页 FollowUserButton（互相关注/已关注/回关）按钮、关注页快捷分类卡与筛选胶囊，修复「粉丝指数」汇总卡双层叠框异常；放宽搜索结果页深度并兼容多子容器与 CardView，彻底适配「综合」分页下方双列视频/图文/语录卡片；聊天消息流内联「🔥 续火花」胶囊按钮同步适配主题玻璃描边。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.71.apk",
+    "sha256":  "b145e76bd799dfd8b95ba2423ee0a2b56147a2b8fecaa147ff598c396fc17289"
 }
