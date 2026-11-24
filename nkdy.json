@@ -1,7 +1,7 @@
 {
-    "versionCode":  115,
-    "versionName":  "5.9.72",
-    "changelog":  "v5.9.72: 修复搜索结果页背景残留原生灰色问题（深度清透明中间全宽容器并统一底层主题/纯黑背景）；删除互关/关注/粉丝指数/朋友页常规列表行的玻璃卡片化；移除消息页「会话列表玻璃卡片化」开关与渲染；适配朋友页「为你推荐」下方的推荐好友卡片与加朋友/打招呼按钮。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.72.apk",
-    "sha256":  "e9412c7f72a2e6c85614d41e0489c51ee688b3e8604c9609b3fec47d82484322"
+    "versionCode":  116,
+    "versionName":  "5.9.73",
+    "changelog":  "v5.9.73: 修复进入「粉丝指数」分页闪退的问题：跳过 BulletContainerView/Lynx 子树防止 BackgroundDrawable 类型强转崩溃；列表关注按钮与卡片改用真正继承自 GradientDrawable 的 NkdyTaggedGradientDrawable 防止 FollowUserButton 强转崩溃；修复 FollowButtonTint 在 R8 混淆下的背景识别冲突。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.73.apk",
+    "sha256":  "23c3bcd311d47860ace569b284f4e24a9f8a6188474f913b79fcd5f14680de5d"
 }
