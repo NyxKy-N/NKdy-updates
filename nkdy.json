@@ -1,7 +1,7 @@
 {
-    "versionCode":  112,
-    "versionName":  "5.9.69",
-    "changelog":  "v5.9.69: 优化抖音分享弹层小白条区域无缝填色适配并移除底部描边截断线；修复评论区打开时误选全屏容器遮住上方视频的问题；评论区与底部弹层改用仅顶边圆弧高光描边，彻底消除左右漏色；评论区底部输入框停靠态抬高 30dp 且下方区域无缝填充主题底色。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.69.apk",
-    "sha256":  "1a71a63bdf41bb8ce5d0b6fad03f6060e3b6e905088cbea616247cf102af13fe"
+    "versionCode":  113,
+    "versionName":  "5.9.70",
+    "changelog":  "v5.9.70: 移除聊天页「隐藏顶栏状态与火花徽标」开关；聊天输入框上方快捷表情栏改为透明悬浮主题玻璃小胶囊；适配未关注主页纸飞机私信图标按钮与好友主页「朋友」按钮（MateButton）统一主题玻璃样式；修复 NKdy 日志页顶部玻璃卡片蓝青底色偏差；新增主页访客页（ProfileVisitorActivity）、互关/关注/粉丝指数/朋友页（FollowRelationTabActivity）以及搜索结果瀑布流卡片与筛选胶囊的全面主题适配与视觉优化。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.70.apk",
+    "sha256":  "333e8f8ee6bd517b8871303ed8a906fb3da0c62e040d4e38a8c1bb0be08dd54b"
 }
