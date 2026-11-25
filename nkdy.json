@@ -1,7 +1,7 @@
 {
-    "versionCode":  118,
-    "versionName":  "5.9.75",
-    "changelog":  "v5.9.75: 通过 adb 真机崩溃日志定位并彻底修复进入「粉丝指数」闪退的 NullPointerException（FollowButtonTint.hasRed 遍历 DrawableContainerState.children 与 LayerDrawable 空槽位未判空），并补齐主线程异常兜底；真机实测粉丝指数/关注/朋友/搜索结果全页面零崩溃。",
-    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.75.apk",
-    "sha256":  "6c6a1b54d1f3e39fbcab9750a0aebba49fe1e10a277e603d249285f3bdc92723"
+    "versionCode":  119,
+    "versionName":  "5.9.76",
+    "changelog":  "v5.9.76: 彻底修复抖音强制浅色底部弹层（他人主页「取关/更多操作」页与「直播长按」弹层）在纯黑/深色主题下残留白底卡片、黑字黑图标、原生红分享按钮与底边漏出下层画面的问题；新增深色描边卡片自适应、单色/异步图标高清翻亮（完整保留头像与黄/绿/红彩色徽标）、主题色分享渐变胶囊与滚动复用实时同步。",
+    "url":  "https://github.com/NyxKy-N/NKdy-updates/releases/latest/download/nkdy-5.9.76.apk",
+    "sha256":  "d1a4f6f3bf0e59e510dde7cd25d8445478bfe15ebb6077aa55e193d521db3fd0"
 }
